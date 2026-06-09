@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ordered Lists</title>
+</head>
+<body>
+
+    <h1>Ordered Lists</h1>
+
+    <p>Ordered lists can be styled using CSS</p>
+
+    <h2>Upper Roman</h2>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h2>Lower Roman</h2>
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h2>Upper Alphabet</h2>
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h2>Lower Alphabet</h2>
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h2>Decimal Numbers</h2>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h2>Decimal Leading Zero</h2>
+    <ol style="list-style-type: decimal-leading-zero;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h2>Lower Greek</h2>
+    <ol style="list-style-type: lower-greek;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+</body>
+</html>
