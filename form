@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        Name:
+        <input type="text" placeholder="Enter your name" autofocus required>
+        <br><br>
+
+        Email:
+        <input type="email" placeholder="Enter your email" required>
+        <br><br>
+
+        Password:
+        <input type="password" maxlength="8" required>
+        <br><br>
+
+        Phone Number:
+        <input type="tel" pattern="[0-9]{10}" placeholder="10-digit number">
+        <br><br>
+
+        Age:
+        <input type="number" min="5" max="100">
+        <br><br>
+
+        Marks:
+        <input type="number" min="0" max="100" step="1">
+        <br><br>
+
+        Upload Files:
+        <input type="file" multiple>
+        <br><br>
+
+        Student ID:
+        <input type="text" value="STU101" readonly>
+        <br><br>
+
+        School Name:
+        <input type="text" value="ABC School" disabled>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
